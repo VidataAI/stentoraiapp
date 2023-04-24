@@ -1,0 +1,53 @@
+{
+  "formName": "My Form",
+  "formFields": [
+    {
+      "fieldName": "First Name",
+      "fieldId": "firstName",
+      "fieldType": "text"
+    },
+    {
+      "fieldName": "Last Name",
+      "fieldId": "lastName",
+      "fieldType": "text"
+    },
+    {
+      "fieldName": "Gender",
+      "fieldId": "gender",
+      "fieldType": "radio",
+      "fieldOptions": [
+        {
+          "optionLabel": "Male",
+          "optionValue": "male"
+        },
+        {
+          "optionLabel": "Female",
+          "optionValue": "female"
+        },
+        {
+          "optionLabel": "Other",
+          "optionValue": "other"
+        }
+      ]
+    },
+    {
+      "fieldName": "Education",
+      "fieldId": "Education",
+      "fieldType": "checkbox",
+      "fieldOptions": [
+        {
+          "optionLabel": "Degree",
+          "optionValue": "Degree"
+        },
+        {
+          "optionLabel": "High School Diploma",
+          "optionValue": "High School Diploma"
+        },
+        {
+          "optionLabel": "Other",
+          "optionValue": "other"
+        }
+      ]
+    }
+  ]
+}
